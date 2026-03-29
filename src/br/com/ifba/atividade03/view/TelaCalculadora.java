@@ -32,7 +32,7 @@ public class TelaCalculadora extends javax.swing.JFrame {
         btnCalcular = new javax.swing.JButton();
         lblAnoNascimento = new javax.swing.JLabel();
         lblSuaIdade = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
+        lblImagem = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setLocation(new java.awt.Point(0, 0));
@@ -78,8 +78,8 @@ public class TelaCalculadora extends javax.swing.JFrame {
         lblSuaIdade.setText("Sua Idade é:");
         lblResultado.add(lblSuaIdade, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 330, -1, -1));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/ifba/atividade03/imagens/imgPessoa.png"))); // NOI18N
-        lblResultado.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 150, -1, -1));
+        lblImagem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/ifba/atividade03/imagens/imgPessoa.png"))); // NOI18N
+        lblResultado.add(lblImagem, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 150, -1, -1));
 
         getContentPane().add(lblResultado, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 800, 600));
 
@@ -131,8 +131,8 @@ public class TelaCalculadora extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnCalcular;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel lblAnoNascimento;
+    private javax.swing.JLabel lblImagem;
     private javax.swing.JPanel lblResultado;
     private javax.swing.JLabel lblSuaIdade;
     private javax.swing.JLabel lblTitulo;
