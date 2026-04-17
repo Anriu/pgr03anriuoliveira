@@ -6,6 +6,7 @@ package br.com.ifba.atividade07;
 
 public interface Pagamento {
     
+    //Interface com a assinatura dos metodos
     public double calcularTotal();
     public String imprmirRecibo();
     

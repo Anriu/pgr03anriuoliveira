@@ -17,7 +17,7 @@ public class PagamentoPix implements Pagamento{
     public String imprmirRecibo() {
         return "<html>Pagamento com pix<br>"
                 + "Valor inicial: R$ " + this.getValor() + "<br>"
-                + "Desconto aplicado: R$ " + calcularTotal()
+                + "CashBack aplicado: R$ " + calcularTotal()
                 + "</html>";
     }
 

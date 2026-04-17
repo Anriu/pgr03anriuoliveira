@@ -7,12 +7,13 @@ package br.com.ifba.atividade07;
 public class PagamentoDinheiro implements Pagamento {
     
     private double valor;
-
+    
+    //Calculo do desconto
     @Override
     public double calcularTotal() {
         return this.getValor() * 0.9;
     }
-    
+    //Impressao do recibo
     @Override
     public String imprmirRecibo() {
         return "<html>Pagamento com dinheiro<br>"

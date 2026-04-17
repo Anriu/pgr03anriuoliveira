@@ -7,12 +7,12 @@ package br.com.ifba.atividade07;
 public class PagamentoCartao implements Pagamento{
 
     private double valor;
-    
+    //Calculo da taxa
     @Override
     public double calcularTotal() {
         return this.getValor() * 1.05;
     }
-
+    //Impressao do recibo
     @Override
     public String imprmirRecibo() {
         return "<html>Pagamento com Cartão<br>"
